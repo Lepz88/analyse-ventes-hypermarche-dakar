@@ -92,8 +92,17 @@ viande de mouton (x3,6), pommes de terre (x2,7), huile (x2,6), oignons (x2,5).
 - **Python / pandas** : nettoyage (doublons, formats de date, valeurs aberrantes), agrégations, tableaux croisés
 - **Matplotlib** : 7 graphiques pensés pour un public non technique
 - **2 scripts Python commentés** : un pour le nettoyage, un pour l'analyse
-- **Démarche data analyst** : question business → nettoyage → analyse → recommandations
+- **Power BI** : mesures DAX, matrice avec mise en forme conditionnelle, segments, filtre Top N
+## 📈 Tableau de bord Power BI
 
+Pour rendre l'analyse utilisable par un directeur de magasin, j'ai construit un tableau de bord
+interactif : 4 indicateurs clés, 4 graphiques et 4 filtres (mois, rayon, mode de paiement, fidélité).
+
+![Dashboard Power BI](images/dashboard_powerbi.png)
+
+- Fichier : [`powerbi/dashboard_ventes.pbix`](powerbi/dashboard_ventes.pbix) (à ouvrir avec Power BI Desktop)
+- Version PDF : [`powerbi/dashboard_ventes.pdf`](powerbi/dashboard_ventes.pdf)
+- Mesures DAX : CA, Nb tickets (DISTINCTCOUNT), Panier moyen, % paiement mobile (CALCULATE), Part du CA (ALL)
 ## 📁 Structure du projet
 
 ```
@@ -123,5 +132,5 @@ python scripts/02_analyse.py
 
 ## 👤 Auteur
 
-**[Ton prénom et nom]** · Étudiant(e) en [filière] · Futur(e) Data Analyst · Dakar
-[LinkedIn](https://www.linkedin.com/in/ton-profil) · [Email](mailto:ton@email.com)
+**Moulaye Idrisse Haidara** · Étudiant(e) en informatique appliqueee a la gestion des entreprises · Futur(e) Data Analyst · Dakar
+ [Email] haidaraidrisse69@gmail.com
